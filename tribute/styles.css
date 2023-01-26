@@ -1,0 +1,31 @@
+body {
+	color: black;
+	background: rgb(240, 240, 240);
+}
+main {
+	align-text: center;
+	align-content: center;
+}
+figcaption {
+    display: flex;
+    flex-direction: flex-end;
+}
+
+footnote {
+	margin: auto;
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+#image {
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+}
+#img-div {
+    align-content: center;
+    align-items: center;
+}
+img {
+    display: block;
+}
