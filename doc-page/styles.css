@@ -1,0 +1,37 @@
+#navbar {
+  float: left;
+  width: 15%;
+  margin-right: 2%;
+}
+
+#main-doc {
+  float: right;
+  width: 80%;
+  padding-left: 2%;
+  border-left: 1px solid black;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+.nav-link {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+header {
+  font-weight: bolder;
+}
+
+.code {
+  display: block;
+  background-color: rgba(230, 222, 222, 0.808);
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2%;
+  margin-right: 20%;
+  align-items: center;
+}
